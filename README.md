@@ -1,24 +1,37 @@
-# Protein-Analysis-Tool
-Python Script that analyses protein sequences (or translates DNA sequences into protein sequences) and visualises amino acid composition. Ideal for genomics and proteomic projects
+# Protein Analysis Tool
 
-# Features
-Automatically detects DNA or protein sequences from a FASTA file
+A Python script to analyze protein sequences (or DNA sequences translated to proteins) and visualize amino acid composition. Ideal for bioinformatics, genomics, and proteomics projects.
 
-Translates DNA sequences to protein (stops at first stop codon)
+---
 
-Computes protein statistics:
-  
-  1.Sequence length
-  2.Molecular weight (Da)
-  3.Isoelectric point (pI)
-  4.Amino acid composition (%)
+## Overview
 
-Generates histogram plots of amino acid composition
+This project allows users to input FASTA files containing either DNA or protein sequences. The script automatically detects the type of sequence, translates DNA to protein if necessary, computes protein statistics, and generates visualizations of amino acid composition. It is suitable for small-scale proteomics studies, genomics pipelines, or educational purposes.
 
-Saves plots automatically to a /plots folder
+---
 
-# Requirements
+## Features
+
+- Automatic detection of DNA vs. protein sequences
+- Translation of DNA sequences to protein (stops at first stop codon)
+- Protein statistics calculation:
+  - Sequence length
+  - Molecular weight (Da)
+  - Isoelectric point (pI)
+  - Amino acid composition (%)
+- Generates histogram plots of amino acid composition
+- Saves plots automatically in a `/plots` folder
+
+---
+
+## Requirements
+
+- Python 3.8+
+- Packages:
+  - [Biopython](https://biopython.org/)
+  - [Matplotlib](https://matplotlib.org/)
+
+Install required packages using:
+
 ```bash
 pip install biopython matplotlib
-```
-
