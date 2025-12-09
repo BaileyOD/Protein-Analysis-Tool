@@ -7,11 +7,10 @@ Automatically detects DNA or protein sequences from a FASTA file
 Translates DNA sequences to protein (stops at first stop codon)
 
 Computes protein statistics:
-
-  Sequence length
-  Molecular weight (Da)
-  Isoelectric point (pI)
-  Amino acid composition (%)
+  1.Sequence length
+  2.Molecular weight (Da)
+  3.Isoelectric point (pI)
+  4.Amino acid composition (%)
 
 Generates histogram plots of amino acid composition
 
