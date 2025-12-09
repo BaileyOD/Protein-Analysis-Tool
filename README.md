@@ -35,3 +35,22 @@ Install required packages using:
 
 ```bash
 pip install biopython matplotlib
+```
+## Usage
+```shell
+>gene_1
+ATGGCCATTGTAATGGGCCGCTGAAAGGGTGCCCGATAG
+
+>protein_1
+MKTAYIAKQRQISFVKSHFSRQDILDLWIYHTQGYFP
+```
+## Project Structure 
+```powershell
+project_folder/
+│
+├── data/
+│   └── protein_example.fasta   # Input FASTA file
+├── plots/                      # Generated histograms
+├── protein_analysis.py         # Main script
+└── README.md
+```
