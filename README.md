@@ -8,13 +8,10 @@ Translates DNA sequences to protein (stops at first stop codon)
 
 Computes protein statistics:
 
-Sequence length
-
-Molecular weight (Da)
-
-Isoelectric point (pI)
-
-Amino acid composition (%)
+  Sequence length
+  Molecular weight (Da)
+  Isoelectric point (pI)
+  Amino acid composition (%)
 
 Generates histogram plots of amino acid composition
 
