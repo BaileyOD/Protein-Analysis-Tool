@@ -37,6 +37,7 @@ Install required packages using:
 pip install biopython matplotlib
 ```
 ## Usage
+Example Inputs
 ```shell
 >gene_1
 ATGGCCATTGTAATGGGCCGCTGAAAGGGTGCCCGATAG
@@ -54,3 +55,30 @@ project_folder/
 ├── protein_analysis.py         # Main script
 └── README.md
 ```
+## Example Output
+```yaml
+Protein ID: protein_1
+Final Protein Length: 39 aa
+Molecular Weight: 4512.36 Da
+Isoelectric Point (pI): 6.92
+Amino Acid Composition (%):
+  A: 7.69%
+  C: 0.00%
+  D: 5.13%
+  ...
+```
+Histogram plot
+-Saved as plots/protein_1_aa_composition.png
+
+## Future Improvments
+This is a display of basic skills and not a direct project however
+-ORF detection for unannotated DNA sequences
+-Seconadry Structure predictions
+-Exporting into CSV/Excel
+
+## License
+This project is licensed under the MIT License.
+
+## Author
+Bailey O'Donnell
+https://github.com/%3Cyour-github-BaileyOD
