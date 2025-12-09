@@ -7,6 +7,7 @@ Automatically detects DNA or protein sequences from a FASTA file
 Translates DNA sequences to protein (stops at first stop codon)
 
 Computes protein statistics:
+  
   1.Sequence length
   2.Molecular weight (Da)
   3.Isoelectric point (pI)
