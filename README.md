@@ -68,13 +68,13 @@ Amino Acid Composition (%):
   ...
 ```
 Histogram plot
--Saved as plots/protein_1_aa_composition.png
+- Saved as plots/protein_1_aa_composition.png
 
 ## Future Improvments
 This is a display of basic skills and not a direct project however
--ORF detection for unannotated DNA sequences
--Seconadry Structure predictions
--Exporting into CSV/Excel
+- ORF detection for unannotated DNA sequences
+- Seconadry Structure predictions
+- Exporting into CSV/Excel
 
 ## License
 This project is licensed under the MIT License.
